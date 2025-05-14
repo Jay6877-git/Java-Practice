@@ -6,15 +6,15 @@ public class JavaBasicPractice {
     /**
      * Checks if num1 is a multiple of num2.
      * 
-     * @param num1 Number
-     * @param num2 Number assumed to be multiple of num1
-     * @return true if num2 is a multiple of num1
+     * @param num1 The number to check
+     * @param num2 The number to divide by
+     * @return true if num1 is a multiple of num2
      */
     public static boolean isMultiple(long num1, long num2){
         boolean value;
         value = num1 % num2 == 0;
         return value;
-    };
+    }
     
     /**
      * Checks if i is even or not
